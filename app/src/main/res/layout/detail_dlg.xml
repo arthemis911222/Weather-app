@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_theme">
+
+    <RelativeLayout
+        android:id="@+id/rl_bg"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_umbrella">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:padding="6dp"
+            android:orientation="horizontal"
+            android:background="#70000000">
+
+            <ImageView
+                android:id="@+id/iv_icon"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/umbrella" />
+
+            <TextView
+                android:id="@+id/tv_icon"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="不用带伞"
+                android:textColor="#fff8f8"
+                android:textSize="17dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="13dp">
+
+        <TextView
+            android:id="@+id/tv_detail"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:textColor="#404040"
+            android:text="@string/spyDetail" />
+    </LinearLayout>
+
+</LinearLayout>
